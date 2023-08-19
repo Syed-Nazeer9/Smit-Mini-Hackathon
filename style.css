@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color:#EAF4FC;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    height: max-content;
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 13px 28px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    
+}
+.container-signIn{
+    padding: 30px 20px;
+}
+.container .container-signUp{
+    margin: 50px 80px;
+}
+.container-signUp{
+    padding: 30px 40px;
+}
+h1{  
+    text-transform: uppercase;
+    height: 50px;
+   font-size: 38px;
+   color: #535358;
+   text-align: center;
+}
+.inputfield{
+    margin: 12px 0;
+}
+form img{
+    position: relative;
+    top: 7px;
+    right:0;
+    height: 26px;
+    margin-right: 5px;
+    
+}
+.form-text{
+    margin-top: 5px;
+   font-size: 13px;
+   font-weight: bold;
+   color: 152536;
+
+}
+input{
+    padding: 8px;
+    margin-top: 6px;
+    height: 50px;
+    width: 280px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(83, 83, 88, 0.2);
+}
+.create{
+    font-size: 18px;
+}
+.para1{
+    display: inline-block;
+    color: rgb(52, 24, 156);
+}
+a{
+    color: #551A8B;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: 1px solid rgb(83, 83, 88, 0.4);
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    position: relative;
+     top: 15px;
+    left: 80px;
+    margin-bottom: 30px;
+    background-color: #7749F8;
+    ;
+    text-transform: uppercase;
+}
+.btn-up{
+    margin-bottom: 10px;
+    position: relative;
+    top: 20px;
+   left: 40px;
+}
+
+/* Dashboard  */
+
+#personal-blog{
+    height: 110px;
+    width: 100%;
+
+}
+
+#personal-blog .info{
+    height: 35px;
+    width: 100%;
+    padding: 0 100px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
+#personal-blog .info h3{
+   background-color:  blueviolet;
+   color: aliceblue;
+   font-size: 25px;
+}
+#personal-blog .info a{
+    background-color:  blueviolet;
+    color: aliceblue;
+ }
+#personal-blog .info #name, #logout-btn{
+    width: 80px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+
+
+}
+#personal-blog .dashboard{  
+    background-color:aliceblue; 
+    padding: 23px 100px;
+    
+}
+#personal-blog .dashboard #d-heading{
+    /* text-transform: capitalize; */
+    font-size: 32px;background: none;
+    color: #152536;
+}
+
+.blog{
+    height: 270px;
+    width: 70%;
+    margin: 30px auto 30px 100px;
+    display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   padding-left: 60px;
+   background-color:aliceblue; 
+   flex-direction: column;
+   border-radius:10px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.to-publish{
+    width: 100%;
+    background-color:aliceblue;
+}
+ .to-publish input,textarea{
+    height: 40px;
+    width: 600px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 8px 18px;
+    color: gray;
+     border: 1px solid rgb(214, 214, 214);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    resize: none;
+
+
+} 
+
+.to-publish textarea{
+    height: 100px;
+}
+  input[type=text]:focus {
+    border: 2px solid blueviolet;
+  }
+  textarea:focus {
+    border: 2px solid blueviolet;
+  }
+  #publish-blog input[type=button]{
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    outline: none;
+  }
+
+
+
+  #myblog{
+    height: max-content;
+    width: 100%;
+    background-color: #EAF4FC;
+    
+    }  
+    #myblog .blog{
+        height: max-content;
+        box-shadow: none;
+        border: 1px solid lightgrey;
+        background-color: aliceblue;
+        padding: 20px;
+    
+    }
+    #myblog .myBlogs{
+        margin-left: 100px;
+        font-size: 32px;
+        text-transform: capitalize;
+    
+    }
+    
+    .publisher-info{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .publisher-info img{
+          height: 80px;
+          width: 80px;
+          border-radius: 5px;
+    }
+    .about-user{
+        background-color: aliceblue;
+        padding: 0 20px 8px 20px;
+        width: 100%;
+    
+    }
+    .about-user .content-heading{
+        background-color: aliceblue;
+        text-transform: capitalize;
+        max-width: 350px;
+    
+    }
+    #myblog .content p{
+        margin-right: 10px;
+        padding: 10px 0 10px 0;
+        background-color: aliceblue;
+        color:grey;
+        word-spacing: 2px;
+    
+    }
+    #myblog span{
+        position: relative;
+        top: 2px;
+        left: 0;
+        color: grey;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .edit-delete-btns button{
+        background: aliceblue;
+        margin-right: 20px;
+        border: none;
+       color: blueviolet;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+/* userblog1 */
+
+
+.see-btn a{
+    text-decoration: none;
+}
+.dashboard img{
+    height: 24px;
+}
+.dashboard {
+    display:flex;
+}
+.dashboard .back{
+    color: #8a2be2;
+}
+
+
+/* MediaQuary */
+
+    @media screen and (max-width: 900px){
+        .to-publish input,textarea{
+            width: 90%;
+        
+        }
+        .blog{
+            height: 280px;
+            width: 95%;
+            margin: 30px 10px;
+            padding-left: 15px;
+            
+        } 
+        #personal-blog .info{
+            padding-right: 0;
+        }
+      }
+      #myblog .blog{
+        padding: 20px;
+    }   
+    
+    #personal-blog .info{
+        padding-right: 0;
+    }
+        
